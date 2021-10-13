@@ -1,0 +1,284 @@
+
+#header h1 a {
+	color: white;
+	text-decoration: none;
+    background-color: #000;
+}
+#header div a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+@mixin sizes($min-height,$height){
+    min-height: $min-height;
+	height: $height;
+} 
+#siteBanner {
+	background-image: url("../imagenes/parras23.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#siteBannerMujer {
+	background-image: url("../imagenes/parras.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#siteBannerInfantil {
+	background-image: url("../imagenes/1z0m31Xrtce4I61fyS1Ect_bATK7Xifiy_2000x.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+.titulo h2 {
+	color: black;
+	font-weight: 500;
+}
+#siteBannerBotas {
+	background-image: url("../imagenes/botas2.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#siteBannerCascos {
+	background-image: url("../imagenes/casco1.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#siteCascosMujer {
+	background-image: url("../imagenes/1le2lFcGgewDe4wSrY1d9LbNwG7RSzaay_2000x.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#siteCascosInfantil {
+	background-image: url("../imagenes/1jKvEZeDBm46YbmoVlpvLSgWAibeME24i_2000x.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#siteBannerEsquies {
+	background-image: url("../imagenes/esquies2.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#cascos {
+	background-image: url("../imagenes/1OyAB4MjdbCefb__yBThENSnZtzlVyom7_2000x.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#antiparras {
+	background-image: url("../imagenes/parras999.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#antiparras2 {
+	background-image: url("../imagenes/antiparras2.1.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#esquies {
+	background-image: url("../imagenes/esquies2.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#esquies02 {
+	background-image: url("../imagenes/women_02.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#botas {
+	background-image: url("../imagenes/botas2.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#equipo {
+	background-image: url("../imagenes/cuidado.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#infantlies {
+	background-image: url("../imagenes/infantiles.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+#nosotros {
+	background-image: url("../imagenes/brc.jpg");
+	background-size: cover;
+	background-position: 50%;
+    @include sizes(450px, 50vh);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 25px;
+  width: 25px;
+  outline: black;
+  background-color: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+.btn-primary {
+	background-color: $color-2;
+	border-color: $color-2;
+	&:hover {
+		background-color: #fff;
+		color: $color-2;
+		border: solid 2px $color-2;
+	}
+}
+.card {
+	border-color: #000;
+	&:hover {
+		border:solid 10px;
+		border-color: #000314;
+		transform: translate(5px, 10px);
+	}
+}
+.bg-oscuro{
+	background-color: $color;/*#020747 #030947 #000526 #000314*/
+}
+.bg-email {
+	background-color: #000;
+}
+.form-control {
+	resize: none;
+}
+.formulario {
+	width: 10px; height: 40px;
+    transition: all 5s;
+}
+.formulario:focus {
+	width: 100px;
+	font-size: 24px;
+ }
+.footer a:hover {
+	text-decoration: none;
+}
+.bg-footer {
+	background-color: $color-2;
+}
+.ig:hover {
+	transform: translate(3px, 3px);
+	transition: 1s;
+	text-decoration: none;
+}
+.btn-modal {
+	background-color: $color-2;
+	color: #fff; 
+}
+.btn-modal:hover {
+	color: #fff;
+	border: solid 2px $color-2;
+}
+.cardparrafo {
+	color: #000;
+	font-weight: 700;
+}
+#esquiesInfantil {
+	background-image: url("../imagenes/carrusel2.jpg");
+	background-size: cover;
+	background-position: 50%;
+	@include sizes(450px, 50vh);
+}
+.titulos {
+	color: #000;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 2rem;
+	font-family: $font-familyTit;
+}
+.botton {
+	color: #fff;
+	font-weight: 700;
+	&:hover {
+		color: $color;
+		background-color: #fff;
+		text-decoration: none;
+	}
+}
+.btn {
+	color: #fff;
+	background-color: $color;
+	border: solid 2px $color;
+	font-weight: 700;
+	&:hover {
+		background-color: #fff;
+		color: $color;
+	}
+}
+.banners {
+	&:hover {
+		opacity: 0.6;
+	}
+}
+.breadcrumb {
+	background-color: transparent;
+	font-family: $font-family;
+}
+.breadcrumb-item a {
+	text-decoration: none;
+	color: #000;
+}
+.breadcrumb-item a:hover {
+	text-decoration: none;
+	color: #DA1535;/*#DA1514,*/
+}
+.parrafo {
+	font-family: $font-family;
+	color: #000;
+	padding: 10px;
+	line-height: 1.5;
+	font-size: 1rem;
+}
+.parrafos {
+	font-family: $font-family;
+	color: #000;
+	text-align: center;
+	font-size: 1rem;
+}
+.parrafo b a {
+	text-decoration: none;
+	color: #000;
+}
+.navbar-title {
+	color: #fff;
+	text-decoration: none;
+	font-size: 3rem;
+	font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	text-transform: uppercase;
+	&:hover {
+		color: #DA1535;
+	}
+}
+.button {
+	background-color: #fff;
+	border: solid 2px black;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+	&:hover {
+		background-color: #DA1535;
+	}
+}
+	
